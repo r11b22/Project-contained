@@ -1,0 +1,128 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:wheat_seeds"
+    },
+    "title": {
+      "text": "Farmer's dream.",
+      "color": "aqua",
+      "extra": [
+        "?"
+      ]
+    },
+    "description": "Plant every type of seeds",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldborder:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:wheat_seeds"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:farmland"
+            ]
+          }
+        }
+      }
+    },
+    "pumpkin seed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:pumpkin_seeds"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:farmland"
+            ]
+          }
+        }
+      }
+    },
+    "melon seed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:melon_seeds"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:farmland"
+            ]
+          }
+        }
+      }
+    },
+    "beetroot seed": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:beetroot_seeds"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:farmland"
+            ]
+          }
+        }
+      }
+    },
+    "potato": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:potato"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:farmland"
+            ]
+          }
+        }
+      }
+    },
+    "carrot": {
+      "trigger": "minecraft:item_used_on_block",
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:carrot"
+          ]
+        },
+        "location": {
+          "block": {
+            "blocks": [
+              "minecraft:farmland"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "worldborder:expandnormal"
+  }
+}

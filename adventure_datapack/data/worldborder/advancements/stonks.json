@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:emerald_ore"
+    },
+    "title": {
+      "text": "Stonks!!!",
+      "color": "aqua",
+      "extra": [
+        "?"
+      ]
+    },
+    "description": "Obtain an emerald.",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldborder:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:emerald"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "worldborder:expandnormal"
+  }
+}

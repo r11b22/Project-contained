@@ -1,0 +1,39 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe"
+    },
+    "title": {
+      "text": "Expensive tooth pick",
+      "color": "aqua",
+      "extra": [
+        "?"
+      ]
+    },
+    "description": "Obtain a diamond pickaxe.",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldborder:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_pickaxe"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "worldborder:expandnormal"
+  }
+}
+

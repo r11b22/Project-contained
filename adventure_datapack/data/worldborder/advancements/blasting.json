@@ -1,0 +1,38 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:blast_furnace"
+    },
+    "title": {
+      "text": "Blasting",
+      "color": "aqua",
+      "extra": [
+        "?"
+      ]
+    },
+    "description": "Upgrade your furnace into a blast furnace",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldborder:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:blast_furnace"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "worldborder:expandnormal"
+  }
+}
