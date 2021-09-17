@@ -1,0 +1,32 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:flint_and_steel"
+    },
+    "title": {
+      "text": "Another adventure done",
+      "color": "aqua",
+      "extra": [
+        "?"
+      ]
+    },
+    "description": "Exit the Nether",
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "worldborder:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:nether_travel",
+      "conditions": {
+        "distance": {}
+      }
+    }
+  },
+  "rewards": {
+    "function": "worldborder:expandnormal"
+  }
+}
