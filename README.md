@@ -1,6 +1,6 @@
 # Project-contained
 ## Description
-This is a datapack for Minecraft java 1.17 all about growing the worldborder. you do this by completing custom advancements. 
+This is a datapack for Minecraft java 1.17+ all about growing the worldborder. you do this by completing custom advancements. 
 
 there are three types of advancements: Normal(+50 blocks to the radius of the worldborder), Important(+100 blocks to the radius of the worldborer) and Rare(+150 blocks to the radius of the worldborer).
 ## Installation
