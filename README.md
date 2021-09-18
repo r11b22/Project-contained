@@ -17,6 +17,5 @@ there are three types of advancements: Normal(+50 blocks to the radius of the wo
 5. Enjoy.
 ## donations
 [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.com/donate?business=9CCD8CZWDRX6C&no_recurring=0&currency_code=EUR)
-https://www.paypal.com/donate?business=9CCD8CZWDRX6C&no_recurring=0&currency_code=EUR
 ## Credits
 This is a datapack mostly made by r11b22(me), DJ_Banana7839 and thorenium.
