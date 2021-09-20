@@ -7,7 +7,7 @@
       "text": "Golden diet",
       "color": "aqua",
       "extra": [
-        "?"
+        ""
       ]
     },
     "description": "Obtain a golden apple",
@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:gold",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

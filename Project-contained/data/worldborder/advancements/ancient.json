@@ -7,7 +7,7 @@
       "text": "Leftovers",
       "color": "gold",
       "extra": [
-        "?"
+        ""
       ]
     },
     "description": "Obtain ancient debris",
@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:nether",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

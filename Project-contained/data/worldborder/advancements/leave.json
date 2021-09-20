@@ -7,7 +7,7 @@
       "text": "Gardening",
       "color": "aqua",
       "extra": [
-        "?"
+        ""
       ]
     },
     "description": "Obtain leaves",
@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:farm",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

@@ -8,7 +8,7 @@
     },
     "description": "collect every single color of wood."
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:breed",
   "criteria": {
     "black": {
       "trigger": "minecraft:inventory_changed",

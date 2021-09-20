@@ -7,7 +7,7 @@
       "text": "Protected",
       "color": "aqua",
       "extra": [
-        "?"
+        ""
       ]
     },
     "description": "Obtain a shield",
@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:leather",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

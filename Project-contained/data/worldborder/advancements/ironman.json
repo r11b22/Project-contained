@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diamond_chestplate"
+      "item": "minecraft:iron_chestplate"
     },
     "title": {
-      "text": "Shielded",
-      "color": "aqua",
+      "text": "Iron Man",
+      "color": "red",
       "extra": [
         ""
       ]
     },
-    "description": "Craft all pieces of diamond armor",
+    "description": "Make a full set of iron armor",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:ironman",
+  "parent": "worldborder:leather",
   "criteria": {
     "chestplate": {
       "trigger": "minecraft:inventory_changed",
@@ -25,7 +25,7 @@
         "items": [
           {
             "items": [
-              "minecraft:diamond_chestplate"
+              "minecraft:iron_chestplate"
             ]
           }
         ]
@@ -37,7 +37,7 @@
         "items": [
           {
             "items": [
-              "minecraft:diamond_leggings"
+              "minecraft:iron_leggings"
             ]
           }
         ]
@@ -49,7 +49,7 @@
         "items": [
           {
             "items": [
-              "minecraft:diamond_boots"
+              "minecraft:iron_boots"
             ]
           }
         ]
@@ -61,7 +61,7 @@
         "items": [
           {
             "items": [
-              "minecraft:diamond_helmet"
+              "minecraft:iron_helmet"
             ]
           }
         ]
@@ -69,7 +69,6 @@
     }
   },
   "rewards": {
-    "function": "worldborder:expandimportant"
+    "function": "worldborder:expandnormal"
   }
 }
-

@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brick"
+      "item": "minecraft:blast_furnace"
     },
     "title": {
-      "text": "Legoes",
+      "text": "Blasting",
       "color": "aqua",
       "extra": [
         ""
       ]
     },
-    "description": "Obtain a brick",
+    "description": "Upgrade your furnace into a blast furnace",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:clay",
+  "parent": "worldborder:furnace",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -25,7 +25,7 @@
         "items": [
           {
             "items": [
-              "minecraft:brick"
+              "minecraft:blast_furnace"
             ]
           }
         ]

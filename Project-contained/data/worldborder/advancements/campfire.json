@@ -1,23 +1,23 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brick"
+      "item": "minecraft:campfire"
     },
     "title": {
-      "text": "Legoes",
+      "text": "Lets do it old school",
       "color": "aqua",
       "extra": [
         ""
       ]
     },
-    "description": "Obtain a brick",
+    "description": "craft a campfire",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:clay",
+  "parent": "worldborder:bbq",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",
@@ -25,7 +25,7 @@
         "items": [
           {
             "items": [
-              "minecraft:brick"
+              "minecraft:campfire"
             ]
           }
         ]

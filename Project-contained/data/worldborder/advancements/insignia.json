@@ -7,7 +7,7 @@
       "text": "Insignia",
       "color": "aqua",
       "extra": [
-        "?"
+        ""
       ]
     },
     "description": "Obtain a banner",
@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:breed",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

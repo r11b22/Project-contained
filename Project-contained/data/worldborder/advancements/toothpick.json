@@ -7,7 +7,7 @@
       "text": "Expensive tooth pick",
       "color": "aqua",
       "extra": [
-        "?"
+        ""
       ]
     },
     "description": "Obtain a diamond pickaxe.",
@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:ores",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:inventory_changed",

@@ -1,34 +1,30 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brick"
+      "item": "minecraft:trident"
     },
     "title": {
-      "text": "Legoes",
+      "text": "Aquaman",
       "color": "aqua",
       "extra": [
         ""
       ]
     },
-    "description": "Obtain a brick",
+    "description": "Kill a drowned",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:clay",
+  "parent": "worldborder:root",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:inventory_changed",
+      "trigger": "minecraft:player_killed_entity",
       "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:brick"
-            ]
-          }
-        ]
+        "entity": {
+          "type": "minecraft:drowned"
+        }
       }
     }
   },

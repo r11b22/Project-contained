@@ -1,35 +1,27 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:brick"
+      "item": "minecraft:wheat"
     },
     "title": {
-      "text": "Legoes",
+      "text": "Adam and eve",
       "color": "aqua",
       "extra": [
         ""
       ]
     },
-    "description": "Obtain a brick",
+    "description": "Breed 2 animals",
     "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
     "frame": "task",
     "show_toast": true,
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:clay",
+  "parent": "worldborder:farm",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:inventory_changed",
-      "conditions": {
-        "items": [
-          {
-            "items": [
-              "minecraft:brick"
-            ]
-          }
-        ]
-      }
+      "trigger": "minecraft:bred_animals",
+      "conditions": {}
     }
   },
   "rewards": {

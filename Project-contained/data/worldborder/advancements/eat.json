@@ -7,7 +7,7 @@
       "text": "Worth it.",
       "color": "aqua",
       "extra": [
-        "?"
+        ""
       ]
     },
     "description": "Eat a enchanted golden apple.",
@@ -17,7 +17,7 @@
     "announce_to_chat": true,
     "hidden": false
   },
-  "parent": "worldborder:root",
+  "parent": "worldborder:gapple",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:using_item",
